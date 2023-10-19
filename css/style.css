@@ -14,7 +14,7 @@
     --fw-bold: 900;
     
     --clr-light: #fff;
-    --clr-dark: #303030;
+    --clr-dark: #242424;
     --clr-accent: #16e0bd;
     
     --fs-h1: 3rem;
@@ -51,7 +51,7 @@ body {
 }
 
 section {
-    padding: 5em 2em;
+    padding: 3.5em 2em;
 }
 
 img {
@@ -136,7 +136,8 @@ h3 { font-size: var(--fs-h3) }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1em 2em 2em 2em;
+    padding-bottom: 0;
 }
 
 .logo {
@@ -185,7 +186,7 @@ header {
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
+    right: 1.5em;
     top: 1em;
     z-index: 1000;
 }
@@ -247,6 +248,7 @@ header {
 
 .intro {
     position: relative;
+    padding-top: 2em;
 }
 
 .intro__img {
@@ -382,10 +384,22 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
+    background-color: #111;
+    background-image: url(../img/bg-dark-mesh.jpeg);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center;
+     
+    /* Alternative background */
+    /* color: var(--clr-light);
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.9;
+    background-image:  linear-gradient(30deg, #07140b 12%, transparent 12.5%, transparent 87%, #07140b 87.5%, #07140b), linear-gradient(150deg, #07140b 12%, transparent 12.5%, transparent 87%, #07140b 87.5%, #07140b), linear-gradient(30deg, #07140b 12%, transparent 12.5%, transparent 87%, #07140b 87.5%, #07140b), linear-gradient(150deg, #07140b 12%, transparent 12.5%, transparent 87%, #07140b 87.5%, #07140b), linear-gradient(60deg, #07140b77 25%, transparent 25.5%, transparent 75%, #07140b77 75%, #07140b77), linear-gradient(60deg, #07140b77 25%, transparent 25.5%, transparent 75%, #07140b77 75%, #07140b77);
+    background-size: 18px 32px;
+    background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px; */
 }
+
+
 
 .portfolio {
     display: grid;
@@ -417,7 +431,7 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
+    background: #080808;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
