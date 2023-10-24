@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christopher McKenna Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logosmalltrimmed.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                E.mission<strong>Carbon Calculator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Eco Insights Made Simple!</p>
+            <img src="img/portfolio-emissions-chart1.jpeg" alt="" class="intro__img">
+        </section>
+        
+        <!-- Portfolio text and image section -->
+        <div class="portfolio-item-individual">
+            <p>The E.mission Web App is an innovative and environmentally-conscious full-stack JavaScript web application. Developed with a focus on sustainability and user engagement, this project leverages the power of the React library to create a dynamic platform that empowers users to assess and understand their carbon footprint, contributing to a greener world.</p>
+            <img src="img/portfolio-emission-usercompare.jpeg" alt="">
+            <p><strong>Emission Calculator:</strong><br>
+                The heart of the E.mission Web App is a robust carbon emission calculator. Users can enter a range of inputs, from transportation choices to energy consumption, and the application processes this data to calculate their yearly carbon emissions. This powerful tool not only promotes awareness but also encourages responsible choices.</p>            
+            <p><strong>Comparative Analysis:</strong><br>
+                 Beyond individual carbon footprint calculations, the app goes a step further by allowing users to compare their emission data against other users. Furthermore, it provides comparisons to both global and UK averages, giving users valuable insights into their environmental impact.</p>
+            <p><strong>Calculations:</strong><br>
+                 Under the hood, the application runs intricate backend calculations to generate precise carbon emission totals based on user inputs. This ensures that the data provided is not only informative but also highly accurate.</p>            
+            <p><strong>Data Management with MongoDB:</strong><br>
+                 All user data is securely stored and managed in a MongoDB database. This ensures data integrity, scalability, and easy retrieval, while adhering to robust data security practices.</p>
+            <p><strong>Data Visualization with Highcharts:</strong><br>
+                 To enhance user experience and make data more comprehensible, the application integrates the Highcharts charting library. Users can view their carbon emissions in visually appealing and interactive charts, aiding in better understanding and decision-making.</p>
+            <img src="img/portfolio-emission2.jpeg" alt="">
+            <p></p>
+            <h3>Why E.mission Matters:</h3>
+            <p>The E.mission Web App aims to bridge the gap between individual behavior and environmental impact. By empowering users to understand their carbon footprint and how it compares to others, the app fosters a sense of responsibility and encourages eco-friendly choices. We believe that informed users can be the driving force for change, and the E.mission Web App provides the tools for just that.</p>
+            <h3>Technology Stack:</h3>
+            <p>Frontend: React.js</p>
+            <p>Backend: Express.js</p>
+            <p>Databse: MongoDB</p>
+            <p>Charting: Highcharts</p>
+            <img src="img/mern-original.png" alt="">
+            <p></p>
+            <h3>Summary:</h3>
+            <P>The E.mission Web App is a testament to the power of technology to effect positive change in the world. By offering a user-friendly and data-driven approach to understanding and reducing one's carbon footprint, it paves the way for a more sustainable future. We are proud to have created a platform that not only calculates emissions but also empowers individuals to be environmentally responsible, ultimately contributing to a greener and cleaner planet.</P>
+        </div>
+
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:christopher.mckenna123@gmail.com" class="footer__link">christopher.mckenna123@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/christophermckenna123/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/ChrisMcK89"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
